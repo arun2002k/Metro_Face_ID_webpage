@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Webpage</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">METRO FACE TICKETS</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="maps.html">Maps</a>
+            <a href="#">Book Tickets</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+        <form action="#">
+            <h2>Book Tickets</h2>
+                <br>
+                <span class="icon"><ion-icon name="arrow-back-outline"></ion-icon></span>
+                <label for="origin">From</label>
+                <section>
+                    <select id="origin" name="origin">
+                        <option value="station0"></option>
+                        <option value="station1">Airport</option>
+                        <option value="station2">Nanganallur</option>
+                        <option value="station3">Alandur</option>
+                        <option value="station4">Guindy</option>
+                        <option value="station5">Saidapet</option>
+                        <option value="station6">Teynampet</option>
+                        <option value="station7">Thousand lights</option>
+                        <option value="station8">Govt Estate</option>
+                        <option value="station9">High Court</option>
+                        <option value="station10">LIC</option>   
+                    </select>
+                </section>
+                <span class="icon"><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                <label for="destination">To</label>
+                <section>
+                    <select id="destination" name="destination">
+                        <option value="station00"></option>
+                        <option value="station11">Airport</option>
+                        <option value="station12">Nanganallur</option>
+                        <option value="station13">Alandur</option>
+                        <option value="station14">Guindy</option>
+                        <option value="station15">Saidapet</option>
+                        <option value="station16">Teynampet</option>
+                        <option value="station17">Thousand lights</option>
+                        <option value="station18">Govt Estate</option>
+                        <option value="station19">High Court</option>
+                        <option value="station20">LIC</option>
+                    </select>
+                </section>
+        
+            <br>
+            <br>
+            <button type="submit" class="btn" onclick="open()">Pay Now</button>
+            <div class="login-register">
+                <p>Don't have an account? <a
+                href="payment.html" class="register-link">Payment modes.</a></p>
+            </div>
+
+        </form>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

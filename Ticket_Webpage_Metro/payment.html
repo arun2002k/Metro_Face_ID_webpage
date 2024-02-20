@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">METRO FACE TICKETS</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="maps.html">Maps</a>
+            <a href="ticket.html">Book Tickets</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="payment">
+            <section class="payment">
+                <h2>Online Payment</h2>
+                
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment">
+                    <option value="googlepay">G pay</option>
+                    <option value="phonepay">Phone Pay</option>
+                    <option value="paytm">Pay tm</option>      
+                    <option value="paypal">PayPal</option>
+                    <option value="Apple pay">Apple Pay</option>
+                </select>
+                <br>
+                <br>
+
+                <h2>Card Payment</h2>
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment">
+                    <option value="Debit Card">Debit/Credit</option>
+                    <option value="Netbanking">Netbanking</option>
+                    <option value="Bank Transfer">Bank Transfer</option>      
+                    <option value="cash">Cash</option>
+                    
+                </select>
+                <br>
+                <br>
+            <button type="submit" class="btn">Pay</button>
+            <div class="login-register">
+                <p>Back to Booking page. <a
+                href="ticket.html" class="register-link">Booking</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
